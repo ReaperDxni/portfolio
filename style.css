@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+.font-rubic {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.hide-no-scrollbar {
+    overflow: hidden;
+}
+.hide-scrollbar {
+
+}
+.hide-scrollbar::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.my-website {
+    background-image: url("https://cdn.discordapp.com/attachments/474642037573025792/1146500326715826196/image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 224px;
+}
+.card-hover {
+    @apply font-bold opacity-0 group-hover:opacity-100 transition;
+}

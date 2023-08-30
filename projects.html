@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet"/>
+    <title>Portfolio</title>
+</head>
+<body class="bg-black min-h-screen hide-no-scrollbar">
+    <div class="w-full h-20 bg-gradient-to-b from-black to-transparent flex absolute">
+        <div class="font-rubic text-2xl flex h-full items-center ml-10">
+            <a class="text-gray-100" href="index.html">DXNI</a>
+        </div>
+        <div class="flex h-full items-center font-poppins font-bold ml-16 text-xl space-x-10">
+            <a class="text-gray-200 hover:text-gray-400 cursor-pointer transition" href="index.html">home</a>
+            <a class="text-gray-200 hover:text-gray-400 cursor-pointer transition" href="#">projects</a>
+        </div>
+        <div class="w-full h-full flex items-center justify-end mr-10">
+            <button class="text-white bg-gradient-to-r from-blue-900 to-green-900 px-10 py-2 rounded-3xl text-lg font-poppins border transition border-transparent hover:border-white">Contact me</button>
+        </div>
+    </div>
+    <div class="w-full h-screen flex items-center justify-center space-x-16">
+        <div class="w-96 h-56 border border-gray-600 transition hover:scale-105 rounded-md cursor-pointer relative my-website">
+            <div class="w-full h-full hover:bg-zinc-900/50 transition flex flex-col items-center justify-center font-poppins group">
+                <p class="text-gray-200 text-3xl font-bold opacity-0 group-hover:opacity-100 transition">My Website</p>
+                <p class="text-gray-400 text-xl font-bold opacity-0 group-hover:opacity-100 transition">this is the first website of mine</p>
+            </div>
+        </div>
+        <div>
+            <div class="w-96 h-56 bg-zinc-900 border border-gray-600 transition hover:scale-105 rounded-md cursor-pointer"></div>
+        </div>
+        <div>
+            <div class="w-96 h-56 bg-zinc-900 border border-gray-600 transition hover:scale-105 rounded-md cursor-pointer"></div>
+        </div>
+    </div>
+</body>
+</html>
