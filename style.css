@@ -22,6 +22,3 @@
     width: 384px;
     height: 224px;
 }
-.card-hover {
-    @apply font-bold opacity-0 group-hover:opacity-100 transition;
-}
